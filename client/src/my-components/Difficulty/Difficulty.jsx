@@ -6,7 +6,6 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-import { FormField, FormLabel } from "@/components/ui/form";
 
 const Difficulty = ({ setDifficulty }) => {
   return (
