@@ -12,7 +12,7 @@ const Skills = ({ skills = [], setSkill }) => {
       <SelectTrigger className="w-[180px]">
         <SelectValue placeholder="Select Skill" />
       </SelectTrigger>
-      <SelectContent>
+      <SelectContent className="SelectContent">
         {skills.map((skill) => (
           <SelectItem key={skill} value={skill}>
             {skill}
